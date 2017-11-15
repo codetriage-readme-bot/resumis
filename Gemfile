@@ -34,6 +34,7 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'devise', '~> 4.4.1'
 gem 'doorkeeper'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'pundit'
 
 # Exporting resumes to PDF
 gem 'wicked_pdf', '~> 1.1'
@@ -85,4 +86,5 @@ group :development, :test do
   gem 'faker', '~> 1.8.7'
   gem 'fuubar'
   gem 'pry-rails'
+  gem 'pundit-matchers', '~> 1.4.1'
 end
